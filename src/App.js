@@ -13,10 +13,12 @@ class App extends Component {
             </Grid.Row>
             <Grid.Row>
               <Input 
-                label={<Button/>}
+                size='massive'
+                label={<Button>RUN QUERY</Button>}
                 labelPosition='right'
-                placeholder='Find domain' 
+                placeholder='SQL QUERY' 
               />
+            </Grid.Row>
           </Grid>
         </Segment>
       </Container>
